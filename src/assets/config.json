@@ -1,0 +1,8 @@
+{
+    "productionBackend" : "",
+    "productionFrontend": "",
+    "mockBackend": "https://jsonplaceholder.typicode.com/",
+    "devBackend" : "http://localhost:3000/",
+    "devFrontend": "http://localhost:4200/"
+}
+

@@ -1,0 +1,7 @@
+{
+    "/api/*": {
+        "target": "https://capgemini-okta.okta.com/api/v1/authn",
+        "secure": false,
+        "logLevel": "debug"
+    }
+}

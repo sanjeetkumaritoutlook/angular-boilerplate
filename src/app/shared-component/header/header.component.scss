@@ -1,0 +1,48 @@
+.mat-toolbar {
+  /* top: 0px !important; */
+  /* left: 0px !important; */
+  height: 50px !important;
+  background: #126EA9 0% 0% no-repeat padding-box !important;
+  box-shadow: 0px 2px 6px #00000026 !important;
+  opacity: 1 !important;
+}
+
+.header-text {
+  /* top: 15px;
+  left: 188px;
+  width: 122px;
+  height: 25px; */
+  text-align: left;
+  font: normal normal 300 15px/26px Ubuntu;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.sub-header {
+  text-align: left;
+  text-decoration: underline;
+  font: normal normal normal 12px/32px Ubuntu;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 0.92;
+}
+
+.notification-icon {
+  background: transparent no-repeat padding-box;
+  opacity: 1;
+  width: 25px;
+  height: 25px;
+}
+
+.vl {
+  border-left: 1px solid white;
+}
+
+.width-90 {
+  width: 90px;
+}  

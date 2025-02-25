@@ -1,0 +1,54 @@
+{
+  "LOGIN": {
+    "LOGIN": "Log In",
+    "LOGIN-ERROR": "The username and password were not recognized",
+    "USER-ERROR": " Please provide a valid email address",
+    "PASSWORD-ERROR": "Please provide a valid password",
+    "EMAIL": "Email",
+    "PASSWORD": "Password",
+    "LOGOUT": "Logout"
+  },
+  "HOME": {
+    "HOME": "Home Page",
+    "TITLE": "Hello Angular with ngx-translate!",
+    "SELECT": "Change language",
+    "APPRUNNING": "app is running!"
+  },
+  "HEADER": {
+    "WELCOME": "Welcome",
+    "SERVICE": "Service",
+    "APPLICATION": "Application"
+  },
+  "pageNotFound": {
+    "Title": "Ooops, Page Not Found",
+    "Subtitle": "Please, return to the previous page",
+    "Button": "Go back"
+  },
+  "MENU": {
+    "FORM": "Reactive Form Example",
+    "TABLE": "Table and loading indicator example",
+    "FIREBASE": "Firebase Example"
+  },
+  "CUST-HEADER": {
+    "ID": "ID",
+    "NAME": "Name",
+    "UAERNAME": "User Name",
+    "EMAIL": "Email-Id",
+    "PHONE": "Phone",
+    "COMPANY": "Comapny"
+  },
+  "FIREBASE-COMPONENT": {
+    "TITLE": "Firestore CRUD Operations",
+    "CREATE": "Create customer",
+    "EDIT": "Edit",
+    "DELETE": "Delete",
+    "CANCEL": "Cancel",
+    "UPDATE": "Update",
+    "TABLE-HEADER": {
+      "NAME": "Name",
+      "AGE": "Age",
+      "ADDRESS": "Address"
+    }
+  }
+}
+  

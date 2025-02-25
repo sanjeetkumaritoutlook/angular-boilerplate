@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import '~@okta/okta-signin-widget/dist/css/okta-sign-in.min.css';
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+ .mat-card-content {
+     padding: 3rem !important
+ }
+
+ .mat-progress-spinner circle, .mat-spinner circle {
+    stroke: #126EA9;
+}

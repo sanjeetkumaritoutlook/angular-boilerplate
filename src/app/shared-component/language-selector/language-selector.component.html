@@ -1,0 +1,5 @@
+  <mat-form-field appearance="fill" class="w-50 langDropdown">
+    <mat-select [(value)]="selectedLanguage" (selectionChange)="selectLanguage($event)">
+      <mat-option [value]="option.value" *ngFor="let option of languages">{{ option.viewValue }}</mat-option>
+    </mat-select>
+  </mat-form-field>

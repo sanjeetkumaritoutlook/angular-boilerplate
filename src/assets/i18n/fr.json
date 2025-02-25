@@ -1,0 +1,54 @@
+{
+    "LOGIN": {
+      "LOGIN": "Connexion",
+      "LOGIN-ERROR": "Le nom d'utilisateur et le mot de passe n'ont pas été reconnus",
+      "USER-ERROR": "Veuillez fournir une adresse email valide",
+      "PASSWORD-ERROR": "Veuillez fournir un mot de passe valide",
+      "EMAIL": "E-mail",
+      "PASSWORD": "Mot de passe",
+      "LOGOUT": "Se déconnecter"
+    },
+    "HOME": {
+      "HOME": "Page d'accueil",
+      "TITLE": "Bonjour Angular avec ngx-translate !",
+      "SELECT": "Changer la langue",
+      "APPRUNNING": "l'application est en cours d'exécution!"
+    },
+    "HEADER": {
+      "WELCOME": "Bienvenue",
+      "SERVICE": "Un service",
+      "APPLICATION": "Application"
+    },
+    "pageNotFound": {
+      "Title": "Oups, page introuvable",
+      "Subtitle": "Merci de revenir à la page précédente",
+      "Button": "Retourner"
+    },
+    "MENU": {
+      "FORM": "Exemple de formulaire",
+      "TABLE": "Exemple de tableau et d'indicateur de chargement",
+      "FIREBASE": "Exemple Firebase"
+    },
+    "CUST-HEADER": {
+      "ID": "identifiant",
+      "NAME": "Nom",
+      "UAERNAME": "Nom d'utilisateur",
+      "EMAIL": "Adresse e-mail",
+      "PHONE": "Téléphoner",
+      "COMPANY": "Compagnie"
+    },
+    "FIREBASE-COMPONENT": {
+      "TITLE": "Application pour les clients Firestore CRUD Operations",
+      "CREATE": "Créer un client",
+      "EDIT": "Éditer",
+      "DELETE": "Effacer",
+      "CANCEL": "Annuler",
+      "UPDATE": "Mettre à jour",
+      "TABLE-HEADER": {
+        "NAME": "Nom",
+        "AGE": "Âge",
+        "ADDRESS": "Adresse"
+      }
+    }
+ }
+  

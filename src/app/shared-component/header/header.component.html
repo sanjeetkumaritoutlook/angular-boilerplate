@@ -1,0 +1,24 @@
+<mat-toolbar fxLayout="row" color="primary">
+  <span fxFlex class="ml-3">
+      <img class="width-90" [routerLink]="['/dashboard']" src="../../../assets/images/Capgemini_Logo_White.png"/>
+      <span class="vl m-2"></span>
+      <span class="header-text">Angular</span>
+  </span>
+  <span mat-button fxHide.xs>
+    <app-language-selector></app-language-selector>
+    <button mat-button *ngIf="isAuthenticated" (click)="logout()">
+      <mat-icon>exit_to_app</mat-icon>
+      {{ 'LOGIN.LOGOUT' | translate}}
+    </button>
+  </span>
+  <button mat-icon-button [matMenuTriggerFor]="dropMenu" fxHide fxShow.xs>
+      <mat-icon>more_vert</mat-icon>
+  </button>
+  <mat-menu #dropMenu="matMenu">
+      <app-language-selector></app-language-selector>
+      <button mat-button *ngIf="isAuthenticated" (click)="logout()">
+        <mat-icon>exit_to_app</mat-icon>
+        Logout
+      </button>
+  </mat-menu>
+</mat-toolbar>

@@ -1,0 +1,54 @@
+{
+  "LOGIN": {
+    "LOGIN": "Acceso",
+    "LOGIN-ERROR": "No se reconoció el nombre de usuario y la contraseña",
+    "USER-ERROR": "Por favor ingrese su dirección de correo electrónico válida",
+    "PASSWORD-ERROR": "Proporcione una contraseña válida",
+    "EMAIL": "Correo electrónico",
+    "PASSWORD": "Contraseña",
+    "LOGOUT": "Cerrar sesión"
+  },
+    "HOME": {
+      "HOME": "Página de inicio",
+      "TITLE": "¡Hola Angular con ngx-translate!",
+      "SELECT": "Cambiar idioma",
+      "APPRUNNING": "la aplicación se está ejecutando!"
+    },
+    "HEADER": {
+      "WELCOME": "Bienvenidos",
+      "SERVICE": "Servicio",
+      "APPLICATION": "Solicitud"
+    },
+    "pageNotFound": {
+      "Title": "Vaya, página no encontrada",
+      "Subtitle": "Por favor, regrese a la página anterior.",
+      "Button": "Regresa"
+    },
+    "MENU": {
+      "FORM": "Ejemplo de formulario",
+      "TABLE": "Ejemplo de tabla e indicador de carga",
+      "FIREBASE": "Ejemplo de base de fuego"
+    },
+    "CUST-HEADER": {
+      "ID": "IDENTIFICACIÓN",
+      "NAME": "Nombre",
+      "UAERNAME": "Nombre de usuario",
+      "EMAIL": "Identificación de correo",
+      "PHONE": "Teléfono",
+      "COMPANY": "Empresa"
+    },
+    "FIREBASE-COMPONENT": {
+      "TITLE": "Aplicación para clientes de Firestore CRUD Operations",
+      "CREATE": "Crear cliente",
+      "EDIT": "Editar",
+      "DELETE": "Borrar",
+      "CANCEL": "Cancelar",
+      "UPDATE": "Actualizar",
+      "TABLE-HEADER": {
+        "NAME": "Nombre",
+        "AGE": "Edad",
+        "ADDRESS": "Habla a"
+      }
+    }
+  }
+    
