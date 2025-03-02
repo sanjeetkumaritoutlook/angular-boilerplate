@@ -31,15 +31,51 @@ export class LoginComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.returnUrl = this.route.snapshot.queryParams.returnUrl || '/dashboard';
-    if (this.authService.checkAuthenticated()) {
-      this.router.navigate([this.returnUrl]);
-    }
+    // this.returnUrl = this.route.snapshot.queryParams.returnUrl || '/dashboard';
+    // if (this.authService.checkAuthenticated()) {
+    //   this.router.navigate([this.returnUrl]);
+    // }
+
+    // If already authenticated, redirect to dashboard
+    this.authService.isAuthenticated.subscribe((auth) => {
+      if (auth) {
+        this.router.navigate([this.returnUrl]);
+      }
+    });
   }
 
+  // async onSubmit(): Promise<void> {
+  //   this.loginInvalid = false;
+  //   this.formSubmitAttempt = false;
+  //   if (this.form.valid) {
+  //     try {
+  //       const username = this.form.get('username')?.value;
+  //       const password = this.form.get('password')?.value;
+  //       await this.authService.login(username, password);
+  //     } catch (err) {
+  //       this.loginInvalid = true;
+  //     }
+  //   } else {
+  //     this.formSubmitAttempt = true;
+  //   }
+  // }
+
+  // async onSubmit(): Promise<void> {
+  //   this.loginInvalid = false;
+
+  //   try {
+  //     // Hardcoded credentials
+  //     await this.authService.login();
+  //     this.router.navigate([this.returnUrl]);
+  //   } catch (err) {
+  //     console.error('Login failed:', err);
+  //     this.loginInvalid = true;
+  //   }
+  // }
+
+  //mock login , no okta
   async onSubmit(): Promise<void> {
     this.loginInvalid = false;
-    this.formSubmitAttempt = false;
     if (this.form.valid) {
       try {
         const username = this.form.get('username')?.value;
@@ -48,8 +84,6 @@ export class LoginComponent implements OnInit {
       } catch (err) {
         this.loginInvalid = true;
       }
-    } else {
-      this.formSubmitAttempt = true;
     }
   }
 }

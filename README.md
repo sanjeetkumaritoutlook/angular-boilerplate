@@ -6,10 +6,34 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.10.
 
   
+## Okta Authentication API.
+Okta is an identity provider (IdP), and authentication is handled on Okta’s side.
+https://login.okta.com/
+https://developer.okta.com/signup/
+auth0
+Parent organization: Okta
+
+
+
+The Okta Authentication API provides operations to authenticate users, perform multifactor enrollment and verification, recover forgotten passwords, and unlock accounts. It can be used as a standalone API to provide the identity layer on top of your existing application, or it can be integrated with the Okta Sessions API (opens new window)to obtain an Okta session cookie and access apps within Okta.
+
+addresses the following key scenarios:
+
+Primary authentication allows you to verify the username and password credentials for a user.
+
+Multifactor authentication (MFA) strengthens the security of password-based authentication by requiring additional verification of another Factor such as a temporary one-time passcode or an SMS passcode. The Authentication API supports user enrollment with MFA factors enabled by the administrator, and MFA challenges based on your global session policy.
+
+Recovery allows users to securely reset their password if they've forgotten it, or unlock their account if it has been locked out due to excessive failed login attempts. This functionality is subject to the security policy set by the administrator.
+
+ Okta does not provide public issuers and client IDs that work universally. Each issuer and client ID is tied to a specific Okta tenant (organization) and must be set up properly in Okta.
+
+🔹 Alternative Approaches
+
 
 ## Development server
 
-  
+set node_options=--openssl-legacy-provider
+
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 

@@ -26,7 +26,8 @@ export class HeaderComponent implements OnInit {
   }
 
   async logout(): Promise<void> {
-    await this.authService.logout('/l');
+    // await this.authService.logout('/l');
+    await this.authService.logout();
   }
 
 }
